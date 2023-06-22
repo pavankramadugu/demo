@@ -1,0 +1,15 @@
+Supports Multiple Paradigms: Python supports procedural, object-oriented, and functional programming paradigms, making it highly flexible for any task.
+
+Anaconda and pip are two important tools in the Python ecosystem that are used for different purposes:
+
+This  aims to simplify package management and deployment. Python agnostic, installs packages which may contain software written in any language.
+
+Conda has the ability to create isolated environments that can contain different versions of Python and/or the packages installed in them.
+
+pip (Pip Installs Packages): This is the standard package manager for Python. It can install packages from the Python Package Index (PyPI) and other indexes.
+
+
+In Python, a virtual environment is an isolated working copy of Python which allows you to work on a specific project without worrying about affecting other projects.
+
+conda create -n myenv python=3.9
+conda create -n myenv python=3.2
